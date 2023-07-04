@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Forms from '../Forms/Forms';
 
 import products from '../Main/ProductsData';
+import HomeButton from './HomeButton';
 function Products() {
 
     const params = useParams();
@@ -13,6 +14,7 @@ function Products() {
   
     return (
         <div>
+              <HomeButton/>
             <div className='w-full text-center text-2xl pt-2'>
               <h1>{selectedProduct.name}</h1>
               <div className='flex justify-center pt-6'>
