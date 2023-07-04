@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import leftgirl from '../Main/leftgirl.jpg';
-import rightgirl from '../Main/rightgirl.jpg';
+import leftgirl from '../Main/leftgirl.webp';
+import rightgirl from '../Main/rightgirl.webp';
 import products from './ProductsData';
 
 function Main() {
