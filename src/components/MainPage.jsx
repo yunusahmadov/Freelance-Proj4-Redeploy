@@ -5,7 +5,7 @@ import Footer from './Footer/Footer'
 
 function MainPage() {
   return (
-    <div>
+    <div className='flex flex-col justify-between h-[100vh]'>
     <Header/>
     <Main/>
     <Footer/>

@@ -1,35 +1,35 @@
 //Anime images
-import img1 from '../Main/previewImages/img1.webp'
-import img2 from '../Main/previewImages/img2.webp'
-import img3 from '../Main/previewImages/img3.webp'
-import img4 from '../Main/previewImages/img4.webp'
-import anime1 from '../Main/images/anime1.webp'
-import anime2 from '../Main/images/anime2.webp'
-import anime3 from '../Main/images/anime3.webp'
-import anime4 from '../Main/images/anime4.webp'
-import anime5 from '../Main/images/anime5.webp'
-import anime6 from '../Main/images/anime6.webp'
-import anime7 from '../Main/images/anime7.webp'
-import anime8 from '../Main/images/anime8.webp'
-import anime9 from '../Main/images/anime9.webp'
-import anime10 from '../Main/images/anime10.webp'
-import anime11 from '../Main/images/anime11.webp'
-import anime12 from '../Main/images/anime12.webp'
-import anime13 from '../Main/images/anime13.webp'
-import anime14 from '../Main/images/anime14.webp'
+import img1 from '../Main/previewImages/img1.jpg'
+import img2 from '../Main/previewImages/img2.jpg'
+import img3 from '../Main/previewImages/img3.jpg'
+import img4 from '../Main/previewImages/img4.jpg'
+import anime1 from '../Main/images/anime1.jpg'
+import anime2 from '../Main/images/anime2.jpg'
+import anime3 from '../Main/images/anime3.jpg'
+import anime4 from '../Main/images/anime4.jpg'
+import anime5 from '../Main/images/anime5.jpg'
+import anime6 from '../Main/images/anime6.jpg'
+import anime7 from '../Main/images/anime7.jpg'
+import anime8 from '../Main/images/anime8.jpg'
+import anime9 from '../Main/images/anime9.jpg'
+import anime10 from '../Main/images/anime10.jpg'
+import anime11 from '../Main/images/anime11.jpg'
+import anime12 from '../Main/images/anime12.jpg'
+import anime13 from '../Main/images/anime13.jpg'
+import anime14 from '../Main/images/anime14.jpg'
 
 //Classic
-import classic1 from '../Main/images/classic1.webp'
-import classic2 from '../Main/images/classic2.webp'
-import classic3 from '../Main/images/classic3.webp'
+import classic1 from '../Main/images/classic1.jpg'
+import classic2 from '../Main/images/classic2.jpg'
+import classic3 from '../Main/images/classic3.jpg'
 
 //Classic Graphics
 
-import graph1 from '../Main/images/graph1.webp'
+import graph1 from '../Main/images/graph1.png'
 
 //Anime Painting
 
-import paint1 from '../Main/images/anPaint1.webp'
+import paint1 from '../Main/images/anPaint1.png'
 
 //Preview Gifs 
 import classicPainting from '../Main/gifs/classicPaint.gif'
