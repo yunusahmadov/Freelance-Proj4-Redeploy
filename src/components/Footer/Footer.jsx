@@ -7,11 +7,11 @@ function Footer() {
         <p className='text-2xl'>Contact us</p>
         <p>We are always open to you</p>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=deepnote@gmail.com">deepnote@gmail.com</a>
-        <div className='flex justify-center items-center gap-2'>
+        <div className='flex justify-center items-center gap-2 sm:flex-row'>
       <i className="fa-brands fa-instagram text-xl cursor-pointer "></i>
       sweet_mishutka
         </div>
-        <div className='flex justify-center items-center gap-2'>
+        <div className='flex justify-center items-center gap-2 '>
       <i className="fa-brands fa-instagram text-xl cursor-pointer"></i>
        <a href="https://www.instagram.com/kak_duck/">kak_duck</a>
         </div>

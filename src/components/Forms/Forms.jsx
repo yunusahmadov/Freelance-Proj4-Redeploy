@@ -31,15 +31,15 @@ function Forms() {
   return (
     <div className="w-1/2 m-auto">
       <div className="flex flex-col justify-center items-center gap-2">
-        <p>Contact:</p>
-        <input className='border-b-2 border-b-slate-950' type="text" placeholder="Enter your name" />
-        <input className='border-b-2 border-b-slate-950' type="text" placeholder="Enter your e-mail" />
-        <p>Choose the color:</p>
+        <p className='mt-10'>Contact:</p>
+        <input className='border-b-2 border-b-slate-950 sm:w-64 sm:text-xl'  type="text" placeholder="Enter your name" />
+        <input className='border-b-2 border-b-slate-950 sm:w-64 sm:text-xl'  type="text" placeholder="Enter your e-mail" />
+        <p className='sm:text-xl'>Choose the color:</p>
  <div>
  {colorInputs.length < 10 && (
         <button className='text-sm p-2 bg-slate-600 text-slate-50 rounded-xl hover:scale-105 transition-all duration-300' onClick={addColorInput}>Add new color</button>
       )}
- <div className='flex max-w-[310px] flex-wrap gap-5 items-center justify-center mt-5'>
+ <div className='flex w-[310px] flex-wrap gap-5 items-center justify-center mt-5'>
       {colorInputs.map((color, index) => (
         <div key={index} className="flex flex-col justify-center items-center ">
           <input className='w-12 h-12'
@@ -59,7 +59,7 @@ function Forms() {
         <textarea cols={25} className='border-b-2 border-b-slate-950'>
         </textarea>
 
-        <button className='bg-zinc-500 p-2 rounded-2xl mb-10'>Send</button>
+        <button className='bg-zinc-500 p-2 rounded-2xl mb-10 sm:text-xl'>Send</button>
       </div>
     </div>
   );

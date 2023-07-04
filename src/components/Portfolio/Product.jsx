@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 function Product() {
 
 
-  return  <h2>Товар № {prodId}</h2>
+  return  <h2>Test</h2>
   
 }
 
